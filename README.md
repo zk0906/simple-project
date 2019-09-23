@@ -5,3 +5,6 @@
 2.IDEA中复制一个项目   copyproject
 3 maven新建web项目    mavenwebdemo
 3 maven整合ssm实例     ssmdemo
+
+
+todo 搭建完ssm项目后，迅速转入对dubbo的搭建
