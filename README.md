@@ -3,3 +3,5 @@
 
 1.IDEA中新建maven项目  mavendemo
 2.IDEA中复制一个项目   copyproject
+3 maven新建web项目    mavenwebdemo
+3 maven整合ssm实例     ssmdemo
