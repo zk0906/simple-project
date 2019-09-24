@@ -1,8 +1,12 @@
 package com.zk.ssmdemo.service;
 
-import com.zk.ssmdemo.entity.User;
+import com.zk.ssmdemo.pojo.User;
 
 public interface UserService {
 
-    User getById(int id);
+    //根据id查找
+    public User getUserById(Integer userid);
+
+    //添加一条数据
+    public int insert(User user);
 }

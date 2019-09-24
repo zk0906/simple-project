@@ -1,6 +1,4 @@
-package com.zk.ssmdemo.entity;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+package com.zk.ssmdemo.pojo;
 
 public class User {
     private int id;
@@ -8,10 +6,10 @@ public class User {
     private String password;
     private String name;
     private Integer age;
-    private Integer sex;
-    private Date birthday;
-    private String created;
-    private String updated;
+//    private Integer sex;
+//    private Date birthday;
+//    private String created;
+//    private String updated;
 
     public int getId() {
         return id;
@@ -53,37 +51,37 @@ public class User {
         this.age = age;
     }
 
-    public Integer getSex() {
-        return sex;
-    }
-
-    public void setSex(Integer sex) {
-        this.sex = sex;
-    }
-
-    public Date getBirthday() {
-        return birthday;
-    }
-
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
-    }
-
-    public String getCreated() {
-        return created;
-    }
-
-    public void setCreated(String created) {
-        this.created = created;
-    }
-
-    public String getUpdated() {
-        return updated;
-    }
-
-    public void setUpdated(String updated) {
-        this.updated = updated;
-    }
+//    public Integer getSex() {
+//        return sex;
+//    }
+//
+//    public void setSex(Integer sex) {
+//        this.sex = sex;
+//    }
+//
+//    public Date getBirthday() {
+//        return birthday;
+//    }
+//
+//    public void setBirthday(Date birthday) {
+//        this.birthday = birthday;
+//    }
+//
+//    public String getCreated() {
+//        return created;
+//    }
+//
+//    public void setCreated(String created) {
+//        this.created = created;
+//    }
+//
+//    public String getUpdated() {
+//        return updated;
+//    }
+//
+//    public void setUpdated(String updated) {
+//        this.updated = updated;
+//    }
 
     @Override
     public String toString() {
@@ -93,9 +91,9 @@ public class User {
                 ", password='" + password + '\'' +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", sex=" + sex +
-                ", birthday='" + new SimpleDateFormat("yyyy-MM-dd").format(birthday) + '\'' +
-                ", created='" + created + '\'' +
-                ", updated='" + updated + '\'' +
+//                ", sex=" + sex +
+//                ", birthday='" + new SimpleDateFormat("yyyy-MM-dd").format(birthday) + '\'' +
+//                ", created='" + created + '\'' +
+//                ", updated='" + updated + '\'' +
                 '}';
     }}

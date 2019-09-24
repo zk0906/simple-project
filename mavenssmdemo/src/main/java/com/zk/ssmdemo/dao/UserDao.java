@@ -1,51 +1,18 @@
 package com.zk.ssmdemo.dao;
 
 
-import com.zk.ssmdemo.entity.User;
-
-import java.util.List;
+import com.zk.ssmdemo.pojo.User;
 
 public interface UserDao {
-    /**
-     * 根据id查询用户信息
-     *
-     * @param id
-     * @return
-     */
-    public User queryUserById(long id);
+    int deleteByPrimaryKey(Integer id);
 
-    /**
-     * 查询所有用户信息
-     *
-     * @return
-     */
-    public List<User> queryUserAll();
+    int insert(User record);
 
-    /**
-     * 新增用户
-     *
-     * @param user
-     */
-    void insertUser(User user);
+    int insertSelective(User record);
 
-    /**
-     * 更新用户信息
-     *
-     * @param user
-     */
-    void updateUser(User user);
+    User selectByPrimaryKey(Integer id);
 
-    /**
-     * 根据id删除用户信息
-     *
-     * @param id
-     */
-    void deleteUser(String id);
+    int updateByPrimaryKeySelective(User record);
 
-    /**
-     * 根据id获取用户实体
-     * @param id
-     * @return
-     */
-    User getById(int id);
+    int updateByPrimaryKey(User record);
 }
