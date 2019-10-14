@@ -6,31 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f2d961c-e751-4ab7-85b8-dc42b80c8579" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resource/spring/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/spring/ehcache/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/spring/spring-ehcache.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zk/ssmdemo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zk/ssmdemo/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/spring-init/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/spring-init/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/spring-mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/spring/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zk/ssmdemo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zk/ssmdemo/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-init/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-init/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-init/spring-mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mavenwebdemo.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/mavenwebdemo.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mavenwebdemo/WEB-INF/classes/com/zk/ssmdemo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mavenwebdemo/WEB-INF/classes/com/zk/ssmdemo/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mavenwebdemo/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/mavenwebdemo/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mavenwebdemo/WEB-INF/classes/spring-init/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mavenwebdemo/WEB-INF/classes/spring-init/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mavenwebdemo/WEB-INF/classes/spring-init/spring-mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mavenwebdemo/WEB-INF/lib/spring-context-support-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mavenwebdemo/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mavenwebdemo/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2f2d961c-e751-4ab7-85b8-dc42b80c8579" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -178,8 +154,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-22" />
-    <option name="y" value="18" />
+    <option name="x" value="282" />
+    <option name="y" value="36" />
     <option name="width" value="1715" />
     <option name="height" value="1065" />
   </component>
@@ -439,12 +415,12 @@
       <workItem from="1569663928255" duration="2957000" />
       <workItem from="1571035459509" duration="1431000" />
       <workItem from="1571037109492" duration="794000" />
-      <workItem from="1571037970992" duration="5703000" />
+      <workItem from="1571037970992" duration="5709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42728000" />
+    <option name="totallyTimeSpent" value="42734000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,10 +432,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-17" y="15" width="1372" height="852" extended-state="0" />
-    <editor active="true" />
+    <frame x="226" y="29" width="1372" height="852" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2564688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2564688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -470,7 +445,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.18838526" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.47083333" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22361112" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
