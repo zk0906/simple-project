@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="encachedemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>encachedemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="encachedemo.war">
+      <element id="artifact" artifact-name="encachedemo:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<!--
+maxEntriesLocalHeap:用来限制当前缓存在堆内存上所能保存的最大元素数量的
+eternal:对象是否永久有效，一但设置了，timeout将不起作用
+timeToLiveSeconds=x：缓存自创建日期起至失效时的间隔时间x；
+timeToIdleSeconds=y：缓存创建以后，最后一次访问缓存的日期至失效之时的时间间隔y；
+
+如果仅有 timeToLiveSeconds
+那么 自创建时间开始 间隔x后缓存失效；
+如果没有timeToLiveSeconds 那么自最后一次访问缓存 间隔y后 缓存失效；
+如果既有timeToLiveSeconds 也有 timeToIdleSeconds 那么取最小数算作间隔时间；min(x,y);； 经过测试其计算原则是：若自创建缓存后一直都没有访问缓存，那么间隔x后失效，若自创建缓存后有N次访问缓存，那么计算（最后一次访问缓存时间+y ） 即：按照timeToIdleSeconds计算，但总存活时间不超过 y;举个例子：
+timeToIdleSeconds=120；
+timeToLiveSeconds=180；
+上面的表示此缓存最多可以存活3分钟，如果期间超过2分钟未访问 那么此缓存失效！
+
+overflowToDisk：当内存中对象数量达到maxElementsInMemory时，Ehcache将会对象写到磁盘中。
+diskSpoolBufferSizeMB：这个参数设置DiskStore（磁盘缓存）的缓存区大小。默认是30MB。每个Cache都应该有自己的一个缓冲区。
+maxElementsOnDisk：硬盘最大缓存个数。
+diskPersistent：是否缓存虚拟机重启期数据 Whether the disk store persists between restarts of the Virtual Machine. The default value is false.
+diskExpiryThreadIntervalSeconds：磁盘失效线程运行时间间隔，默认是120秒。
+memoryStoreEvictionPolicy：当达到maxElementsInMemory限制时，Ehcache将会根据指定的策略去清理内存。默认策略是LRU（最近最少使用）。你可以设置为FIFO（先进先出）或是LFU（较少使用）。
+clearOnFlush：内存数量最大时是否清除。
+-->
+
+	<!-- 指定一个文件目录，当EhCache把数据写到硬盘上时，将把数据写到这个文件目录下 -->
+	<diskStore path="C:\studyroom\test-file\mavenssmdemo"/>
+
+	<!-- 设定缓存的默认数据过期策略 -->
+	<defaultCache
+			eternal="false"
+			overflowToDisk="true"
+			timeToIdleSeconds="10"
+			timeToLiveSeconds="20"
+			diskPersistent="false"
+			diskExpiryThreadIntervalSeconds="120"/>
+
+	<cache name="cacheTest"
+		   maxElementsInMemory="1000"
+		   eternal="false"
+		   overflowToDisk="true"
+		   timeToIdleSeconds="100"
+		   timeToLiveSeconds="200"/>
+
+</ehcache>
